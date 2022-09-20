@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+
+body{
+    background-color: rgb(3, 20, 78);
+}
+
+h1{
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.slide{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    right: 0%;
+    transform: translate(-50%, 10%);
+    background-image: url("1.jpg");
+    background-size: 100% 100%;
+    margin-bottom: 80px;
+    box-shadow: 1px 2px 10px 5px rgb(241, 245, 33);
+    animation: slider 15s infinite linear;
+}
+
+@keyframes slider {
+    0%{ background-image: url("1.jpg"); }
+    20%{ background-image: url("1.jpg"); }
+    35%{ background-image: url("2.jpg"); }
+    50%{ background-image: url("2.jpg"); }
+    70%{ background-image: url("3.jpg"); }
+    85%{ background-image: url("3.jpg"); }
+    
+}
+
+
+.foot{
+    background-color: #2A3B47;
+    color: wheat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    /* margin-top: 20cm; */
+    
+}
+
+
+.tagline{
+    margin-top: 20cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#a2e2e7; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+    /* margin-top: 20cm; */
+    
+}
+button:hover,h1:hover{
+	transform: scale(1.1);
+
+}
+button:hover{
+	background-color:#e21336;
+}
